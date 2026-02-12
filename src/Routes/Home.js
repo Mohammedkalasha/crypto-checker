@@ -30,11 +30,7 @@ function Home() {
       setIsLoading(false);
       setCoins(response.data);
     });
-  };
-
-  // const getCoins = () => {
-  //   Axios.get(
-  //     "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false"
+  };someImageUrllse"
   //   ).then((response) => {
   //     console.log(response);
   //     setCoins(response.data);
@@ -54,7 +50,7 @@ function Home() {
             type="text"
             onChange={handleSearch}
           />
-          <img onClick={refreshPage} src={Refresh}></img>
+          <img onClick={refreshPage} src={Refresh} alt="decorative chart"></img>
         </div>
       </div>
       <div className="coinContainer">
